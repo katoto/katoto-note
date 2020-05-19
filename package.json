@@ -1,0 +1,27 @@
+{
+  "name": "learnforoffer",
+  "version": "1.0.0",
+  "description": "good good study,day day up",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuArtian/LearnForOffer.git"
+  },
+  "keywords": [
+    "for",
+    "Offer"
+  ],
+  "author": "Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuArtian/LearnForOffer/issues"
+  },
+  "homepage": "https://github.com/YuArtian/LearnForOffer#readme",
+  "devDependencies": {
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar"
+  }
+}
