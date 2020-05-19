@@ -1,12 +1,10 @@
 # 前端面试宝典
 
-## 面向 offer 学习
+## 为了 offer 学习，面向工资编程
 
-
-
-![发发](./.vuepress/assets/img/陈一发儿.jpg)
-
-
+<div style="display: flex;justify-content:center;align-items: center;height: 360px;">
+  <img src="./.vuepress/assets/img/chenyifaer.jpg"/>
+</div>
 
 ## 引子
 
@@ -15,7 +13,6 @@
 > 人之道则不然，损不足以奉有余
 >
 > ​							-- 老子 七十七章
-
 
 
 说的就是行业内疯狂内卷，以逼死同行为目的把同行往死了逼的故事
@@ -31,13 +28,15 @@
 > 孰能有余以奉天下？其唯有道者
 
 正道的光~ ~ ~ ~照在了大地上~~~~
-所以说，兄弟们s
+所以说，兄弟们
 
-### 苟富贵 勿相忘，点个三连 手留余香 
+### 苟富贵 勿相忘，点个三连 手留余香
+<br>
+<div style="display:flex;">
+  <iframe src="https://ghbtns.com/github-btn.html?user=yuartian&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="Follow @Yu on GitHub"></iframe>
+</div>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=yuartian&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="Follow @mdo on GitHub"></iframe>
-
-[🌌 个人Blog传送门](https://github.com/YuArtian/blog) 
+[🌌 个人Blog传送门](https://github.com/YuArtian/blog)
 
 <div style="display:flex;">
   <iframe src="https://ghbtns.com/github-btn.html?user=yuartian&repo=blog&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
@@ -52,7 +51,7 @@
 	<iframe src="https://ghbtns.com/github-btn.html?user=yuartian&repo=yuartian.github.io&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="Fork twbs/bootstrap on GitHub"></iframe>
   <iframe src="https://ghbtns.com/github-btn.html?user=yuartian&repo=yuartian.github.io&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 </div>
+<br>
+<br>
 
-
-
-> 文档尚未完成，内容逐步更新中...
+> 革命尚未成功，内容正在更新...
