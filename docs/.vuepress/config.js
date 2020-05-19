@@ -1,6 +1,6 @@
 module.exports = {
-  title: '前端面试宝典',
-  description: '前端面试宝典',
+  title: '前端知识地图',
+  description: '前端知识地图',
   plugins: ['autobar'],
   themeConfig: {
     sidebar: 'auto'

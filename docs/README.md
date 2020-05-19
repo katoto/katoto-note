@@ -1,4 +1,4 @@
-# 前端面试宝典
+# 前端知识地图
 
 ## 为了 offer 学习，面向工资编程
 
@@ -28,9 +28,9 @@
 > 孰能有余以奉天下？其唯有道者
 
 正道的光~ ~ ~ ~照在了大地上~~~~
-所以说，兄弟们
+所以说，兄弟们👇👇👇
 
-### 苟富贵 勿相忘，点个三连 手留余香
+### 苟富贵 勿相忘，点个三连 手留余香👇👇👇
 <br>
 <div style="display:flex;">
   <iframe src="https://ghbtns.com/github-btn.html?user=yuartian&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="Follow @Yu on GitHub"></iframe>
