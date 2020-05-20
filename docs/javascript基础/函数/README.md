@@ -1,5 +1,3 @@
-# 函数
-
 ## 函数是一等公民
 
 JavaScript 中的函数非常灵活，其根本原因在于 JavaScript 中的函数就是一种特殊的对象，我们把 JavaScript 中的函数称为一等公民 \(First Class Function\)

@@ -3,6 +3,6 @@ module.exports = {
   description: '前端知识地图',
   plugins: ['autobar'],
   themeConfig: {
-    sidebar: 'auto'
+    // sidebar: 'auto'
   }
 }
