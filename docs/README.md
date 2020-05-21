@@ -1,41 +1,25 @@
-# 前端知识地图
+# 来自前端面试官的灵魂拷问
 
-## 为了 offer 学习，面向工资编程
+### Learn For Offer ~
 
 <div style="display: flex;justify-content:center;align-items: center;height: 360px;">
   <img src="./.vuepress/assets/img/chenyifaer.jpg"/>
 </div>
+收录前端面试问题，根据问题作答
 
-## 引子
+点击进入题目索引
 
-> 天之道，损有余而补不足
->
-> 人之道则不然，损不足以奉有余
->
-> ​							-- 老子 七十七章
+<a href="./综合面试题" class="nav-link action-button">灵魂拷问</a>
 
 
-说的就是行业内疯狂内卷，以逼死同行为目的把同行往死了逼的故事
 
-如今找工作越来越难，要求越来越高，工资越来越低。。。资本家心里乐开了花
 
-无产阶级何必为难无产阶级呢。。。
 
-本人经过无数次裁员，被各个创业老板坑了坑了又坑了之后，痛定思痛，写下一点东西
 
-帮助自己面试，也希望能帮到别人，最希望能帮到和我一样疫情期间辛苦找工作的兄弟们，毕竟老子曰
 
-> 孰能有余以奉天下？其唯有道者
-
-正道的光~ ~ ~ ~照在了大地上~~~~
-所以说，兄弟们👇👇👇
-
-### 苟富贵 勿相忘，点个三连 手留余香👇👇👇
-<br>
 <div style="display:flex;">
   <iframe src="https://ghbtns.com/github-btn.html?user=yuartian&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="Follow @Yu on GitHub"></iframe>
-</div>
-
+</div><br>
 [🌌 个人Blog传送门](https://github.com/YuArtian/blog)
 
 <div style="display:flex;">
