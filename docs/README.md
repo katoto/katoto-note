@@ -2,24 +2,38 @@
 
 ### Learn For Offer ~
 
+<style>
+#button {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button a {
+  display: inline-block;
+}
+#button button {
+  cursor: pointer;
+  height: 60px;
+}
+</style>
+
 <div style="display: flex;justify-content:center;align-items: center;height: 360px;">
   <img src="./.vuepress/assets/img/chenyifaer.jpg"/>
 </div>
-收录前端面试问题，根据问题作答
 
-点击进入题目索引
+### 收录前端面试问题，根据问题作答
 
-<a href="./综合面试题" class="nav-link action-button">灵魂拷问</a>
-
-
-
-
-
-
+<div id="button">
+  <a href="./综合面试题" class="nav-link action-button">
+    <button>点击进入题目索引</button>
+  </a>
+</div>
 
 <div style="display:flex;">
   <iframe src="https://ghbtns.com/github-btn.html?user=yuartian&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="Follow @Yu on GitHub"></iframe>
 </div><br>
+
 [🌌 个人Blog传送门](https://github.com/YuArtian/blog)
 
 <div style="display:flex;">
