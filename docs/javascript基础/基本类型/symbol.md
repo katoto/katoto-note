@@ -118,7 +118,7 @@ s1 === s2 // true
 
 ### 简单版
 
-```
+```js
 // 第一版
 (function() {
     var root = this;
