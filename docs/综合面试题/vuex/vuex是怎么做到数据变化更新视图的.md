@@ -1,6 +1,6 @@
 # vuex是怎么做到数据变化更新视图的
 
-# 为什么store变化了视图就会更新
+## 为什么store变化了视图就会更新
 
 因为 vuex 的 state 也是响应式数据，vuex 中的 state 其实就是一个 vue 实例
 
