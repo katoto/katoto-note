@@ -22,12 +22,17 @@
   <img src="./.vuepress/assets/img/chenyifaer.jpg"/>
 </div>
 
-### 收录前端面试问题，根据问题作答
+<h3>来自全网最倒霉前端从业者的面试整理</h3>
+<h3>收录前端面试问题，根据问题作答</h3>
 
 <div id="button">
   <a href="./综合面试题" class="nav-link action-button">
     <button>点击进入题目索引</button>
   </a>
+</div>
+
+<div style="display:flex;">
+  <h3>希望疫情早点结束，但愿自己找到出路</h3>
 </div>
 
 <div style="display:flex;">
