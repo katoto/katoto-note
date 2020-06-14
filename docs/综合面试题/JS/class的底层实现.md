@@ -29,7 +29,7 @@ function _classCallCheck(instance, Constructor) {
 **实现思路**
 
 - 在构造函数的原型上定义属性方法，即为实例属性方法；
-- 在构造函数本身定义属性方法，即为静态属性方法。
+- 在构造函数本身定义属性方法，即为静态属性方法
 
 ```js
 function _createClass(Constructor, protoProps = [], staticProps = []) {
@@ -49,7 +49,7 @@ function _defineProperties(target, props) {
 
 ### 继承实例属性方法和静态属性方法
 
-**实现思路**：借用原型链继承实现。
+**实现思路**：借用原型链继承实现
 
 ```js
 function _inherits(subClass, superClass) {
@@ -65,7 +65,7 @@ function _inherits(subClass, superClass) {
 
 ## 模拟编译
 
-了解了`Class`的底层实现要素，我们就来将`Class`模拟编译为使用原型继承实现的代码。
+了解了`Class`的底层实现要素，我们就来将`Class`模拟编译为使用原型继承实现的代码
 
 ### 源代码
 

@@ -1,5 +1,7 @@
 # 面试题
 
+> https://juejin.im/post/5ee03947e51d457889262921
+
 # 1
 
 ```js
@@ -206,7 +208,7 @@ var a = ?
 
 对象转换为数字
 
-## Symbol.toPrimitive
+### Symbol.toPrimitive
 
 ```js
 var a = {
@@ -219,7 +221,7 @@ var a = {
 }
 ```
 
-## valueOf
+### valueOf
 
 ```js
 var a = {
@@ -232,9 +234,9 @@ var a = {
 }
 ```
 
-## toString
+### toString
 
-### 1
+##### 1
 
 ```js
 var a = {
@@ -245,7 +247,7 @@ var a = {
 }
 ```
 
-### 2
+##### 2
 
 ```js
 var a = [1,2,3]
@@ -254,7 +256,7 @@ a.toSting = a.shift
 
 
 
-## Object.defineProperty
+### Object.defineProperty
 
 ```js
 let i = 0
@@ -265,7 +267,7 @@ Object.defineProperty(window, 'a',{
 })
 ```
 
-## Proxy
+### Proxy
 
 ```js
 var a = new Proxy({i: 0}, {
@@ -276,7 +278,6 @@ var a = new Proxy({i: 0}, {
   }
 })
 ```
-
 
 
 
