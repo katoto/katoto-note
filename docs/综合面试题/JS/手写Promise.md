@@ -144,7 +144,7 @@ class Promise {
         //不能用数组的长度来比较，因为给数组赋值的时候 arr[1] = 1 ==> [empty, 1]，length 是 2
         //这里用 index 作为计数器
         if (++index === promises.length) {
-          return arr
+          return reslove(arr)
         }
       }
 
