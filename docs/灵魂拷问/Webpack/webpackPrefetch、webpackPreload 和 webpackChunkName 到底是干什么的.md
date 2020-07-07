@@ -25,7 +25,7 @@ async function getAsyncComponent() {
 
 生成打包文件如下
 
-<img src="../../.vuepress/assets/img/webpackPrefetch、webpackPreload 和 webpackChunkName 到底是干什么的_01.jpg"/>
+<img src="~@img/webpackPrefetch、webpackPreload 和 webpackChunkName 到底是干什么的_01.jpg"/>
 
 生成的异步 bundle 的文件名默认会有 vendors~lodash 前缀
 
@@ -47,7 +47,7 @@ const { default: _ } = await import(/* webpackChunkName: "lodash" */ /* webpackP
 
 就会以 `<link rel="prefetch" as="script">` 的形式预拉取 lodash 代码：
 
-<img src="../../.vuepress/assets/img/webpackPrefetch_01.jpg"/>
+<img src="~@img/webpackPrefetch_01.jpg"/>
 
 这个异步加载的代码不需要手动点击 button 触发，webpack 会在父 chunk 完成加载后，闲时加载 `lodash` 文件
 

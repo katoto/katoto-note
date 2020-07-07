@@ -4,7 +4,7 @@
 
 
 
-<img src="../../.vuepress/assets/img/webpack中module、chunk、bundle的区别.jpg"/>
+<img src="~@img/webpack中module、chunk、bundle的区别.jpg"/>
 
 
 

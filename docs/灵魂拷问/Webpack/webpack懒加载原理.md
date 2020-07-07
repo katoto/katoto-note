@@ -33,7 +33,7 @@ webpack 内部使用内置组件  [SplitChunksPlugin](https://webpack.docschina.
 
 这时候会动态的生成一个 `script` 标签，加载到 `head` 头里
 
-<img src="../../.vuepress/assets/img/webpackPrefetch、webpackPreload 和 webpackChunkName 到底是干什么的_02.jpg"/>
+<img src="~@img/webpackPrefetch、webpackPreload 和 webpackChunkName 到底是干什么的_02.jpg"/>
 
 
 
