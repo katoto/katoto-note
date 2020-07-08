@@ -2,7 +2,9 @@
 
 ## 字节小程序
 
-#### 模块化
+> 很多功能在模拟器中并不能用，会报错（包括路由跳转等）。所以，最好还是真机扫码调试
+
+### 模块化
 
 可以将一些公共的代码抽离成为一个单独的 js 文件，作为一个模块。模块只有通过 `module.exports` 或者 `exports` 才能对外暴露接口。
 
@@ -13,3 +15,26 @@
   所以更推荐开发者采用 `module.exports` 来暴露模块接口，除非你已经清晰知道这两者的关系
 
 - 小程序目前不支持直接引入 `node_modules` , 开发者需要使用到 `node_modules` 时候建议拷贝出相关的代码到小程序的目录中
+
+### 绑定事件
+
+bind + 事件类型
+
+```html
+<button bindtap="defaultTap"> Button </button>
+```
+
+### tabBar
+
+在 app.json 中可以配置 tabBar 设置底部的导航栏。支持的属性很少，而且没有设置位置的选项，文档中说有 position 但是没用
+
+### 路由
+
+#### tt.navigateTo
+
+不能跳转 tabBar 中定义过的页面
+
+#### tt.switchTab
+
+专门用来跳转 tab 页面的
+
