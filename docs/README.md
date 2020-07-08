@@ -26,7 +26,7 @@
 <h3>收录前端面试问题，根据问题作答</h3>
 
 <div id="button">
-  <a href="./综合面试题" class="nav-link action-button">
+  <a href="./灵魂拷问" class="nav-link action-button">
     <button>点击进入题目索引</button>
   </a>
 </div>
