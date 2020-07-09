@@ -38,3 +38,57 @@ bind + 事件类型
 
 专门用来跳转 tab 页面的
 
+### 自定义组件
+
+> 模拟器也不支持调试，需要真机扫码
+
+#### 创建自定义组件
+
+和正常组件一样有 .json、js、ttml、ttss 文件
+
+要在 .json 中配置
+
+```json
+{
+  "component": true
+}
+```
+
+要在 .js 中使用 Component 构造函数
+
+```js
+Component({
+  //属性
+  properties: {
+    //
+    headerText: {}
+  }
+})
+```
+
+
+
+#### 使用自定义组件
+
+先要在页面的 .json 文件中配置，路径写相对路径也可以
+
+组件名字只能是小写字母、中划线和下划线的组合
+
+```json
+{
+  "usingComponents": {
+    "my-component": "path/to/a/custom/component"
+  }
+}
+```
+
+属性名字可以把 驼峰 变成 - 的，直接用驼峰写法也没有问题
+
+```html
+<view class="component-wrapper">
+  <my-component header-text="My Title"></my-component>
+</view>
+```
+
+自定义组件会先和数据结合，然后再被插入到引入页面的节点中
+
