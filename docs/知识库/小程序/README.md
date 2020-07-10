@@ -60,13 +60,15 @@ bind + 事件类型
 Component({
   //属性
   properties: {
-    //
-    headerText: {}
-  }
+    //可以定义 type, value, observer
+    headerText: {}，
+    //也可以简写，会有对应类型的默认值
+    other: String
+  },
+  // 私有数据，可用于模版渲染
+  data: {},
 })
 ```
-
-
 
 #### 使用自定义组件
 
