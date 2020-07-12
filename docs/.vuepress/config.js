@@ -10,7 +10,8 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@img': path.resolve(__dirname, './assets/img')
+        '@img': path.resolve(__dirname, './assets/img'),
+        '@webpack': path.resolve(__dirname, './assets/img/手写的源码/手写的Webpack')
       }
     }
   }
