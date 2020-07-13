@@ -12,15 +12,14 @@
 
 ## 预备知识
 
-### Symbol.toStringTag
+- [**Symbol.toStringTag**](https://yuartian.github.io/%E7%9F%A5%E8%AF%86%E5%BA%93/javascript%E9%AB%98%E7%BA%A7/Symbol/Symbol.toStringTag.html)
+- [**Object.create(null)**](https://yuartian.github.io/%E7%9F%A5%E8%AF%86%E5%BA%93/javascript%E5%9F%BA%E7%A1%80/%E5%AF%B9%E8%B1%A1/Object.create.html\#object-create-null)
+- [**Object.defineProperty 设置 getter**](https://yuartian.github.io/%E7%81%B5%E9%AD%82%E6%8B%B7%E9%97%AE/JS/Object.defineProperty%E7%9A%84%E5%BA%94%E7%94%A8.html)
+- 按位与
+
+## 打包文件分析
 
 
-
-### Object.create(null)
-
-Object.create() 方法创建一个新对象，使用现有的对象来提供新创建的对象的 \_\_proto\_\_
-
-使用 Object.create(null) 创建的对象上没有任何多余的属性，是纯粹的空对象，许多框架和库中都有应用
 
 
 

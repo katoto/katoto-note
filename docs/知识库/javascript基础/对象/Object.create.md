@@ -18,7 +18,7 @@ var o = Object.create(Object.prototype, {
   foo: { 
     writable:true,
     configurable:true,
-    value: "hello" 
+    value: "hello"
   },
   // bar会成为所创建对象的访问器属性
   bar: {
@@ -33,7 +33,7 @@ var o = Object.create(Object.prototype, {
 
 ## Object.create(null)
 
-创建一个完全的 空对象
+使用 Object.create(null) 创建的对象上没有任何多余的属性，是纯粹的空对象，许多框架和库中都有应用
 
 ## Polyfill
 
