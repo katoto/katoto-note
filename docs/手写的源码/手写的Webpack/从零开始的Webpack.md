@@ -28,5 +28,9 @@ console.log('typeof a',Object.prototype.toString.call(a))// [object a]
 
 ### Object.create(null)
 
+Object.create() 方法创建一个新对象，使用现有的对象来提供新创建的对象的 \_\_proto\_\_
+
+使用 Object.create(null) 创建的对象上没有任何多余的属性，是纯粹的空对象，许多框架和库中都有应用
+
 
 
