@@ -17,9 +17,106 @@
 - [**Object.defineProperty 设置 getter**](https://yuartian.github.io/%E7%81%B5%E9%AD%82%E6%8B%B7%E9%97%AE/JS/Object.defineProperty%E7%9A%84%E5%BA%94%E7%94%A8.html)
 - 按位与
 
-## 打包文件分析
+## 最简单的webpack应用
+
+**创建**
+
+```bash
+mkdir webpack-demo
+cd webpack-demo
+npm init -y
+yarn add webpack webpack-cli
+touch index.html
+mkdir src
+cd ./src
+touch index.js
+touch hello.js
+```
+
+**./index.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webpack-demo</title>
+</head>
+<script src="./dist/main.js"></script>
+<body>
+</body>
+</html>
+```
+
+**./src/index.js**
+
+```javascript
+const hello = require('./hello.js')
+
+console.log('say', hello)
+```
+
+**./src/hello.js**
+
+```javascript
+module.exports = 'hello'
+```
+
+**执行**
+
+```bash
+yarn run webpack -- --mode development
+```
+
+**查看index.html**
+
+输出 say hello
+
+## 分析打包文件
+
+**./dist/main.js**
+
+> 删除了部分注释和内部方法，更简洁一点
+
+```javascript
+(function (modules) {
+  var installedModules = {};
+  function __webpack_require__(moduleId) {
+    if (installedModules[moduleId]) {
+      return installedModules[moduleId].exports;
+    }
+    var module = (installedModules[moduleId] = {
+      i: moduleId,
+      l: false,
+      exports: {},
+    });
+    modules[moduleId].call(
+      module.exports,
+      module,
+      module.exports,
+      __webpack_require__
+    );
+    module.l = true;
+    return module.exports;
+  }
+	//先省略掉内部方法
+  //像 __webpack_require__.s，__webpack_require__.p等的实现
+  return __webpack_require__((__webpack_require__.s = "./src/index.js"));
+})({
+  "./src/hello.js": function (module, exports) {
+    eval(
+      "module.exports = 'hello'"
+    );
+  },
+  "./src/index.js": function (module, exports, __webpack_require__) {
+    eval("const hello = __webpack_require__(console.log('say', hello)");
+  },
+});
+```
 
 
 
+这样看打包后的代码的话，其实已经很好理解 webpack 所做的工作了
 
-
+webpack
