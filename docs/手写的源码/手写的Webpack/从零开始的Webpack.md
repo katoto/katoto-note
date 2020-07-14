@@ -10,27 +10,16 @@
 
 其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 bundle
 
-## 预备
+## 预备知识
 
-### Symbol.toStringTag
+- [**Symbol.toStringTag**](https://yuartian.github.io/%E7%9F%A5%E8%AF%86%E5%BA%93/javascript%E9%AB%98%E7%BA%A7/Symbol/Symbol.toStringTag.html)
+- [**Object.create(null)**](https://yuartian.github.io/%E7%9F%A5%E8%AF%86%E5%BA%93/javascript%E5%9F%BA%E7%A1%80/%E5%AF%B9%E8%B1%A1/Object.create.html\#object-create-null)
+- [**Object.defineProperty 设置 getter**](https://yuartian.github.io/%E7%81%B5%E9%AD%82%E6%8B%B7%E9%97%AE/JS/Object.defineProperty%E7%9A%84%E5%BA%94%E7%94%A8.html)
+- 按位与
 
-Symbol.toStringTag 是一个内置 Symbol，Symbol.toStringTag 的值应该为字符串类型，这个字符串用来表示该对象的自定义类型标签
+## 打包文件分析
 
-通常只有内置的 Object.prototype.toString() 方法会去读取这个标签并把它包含在自己的返回值里
 
-#### 用 toStringTag 自定义类型
-
-```javascript
-var a = {}
-a[Symbol.toStringTag] = 'a'
-console.log('typeof a',Object.prototype.toString.call(a))// [object a]
-```
-
-### Object.create(null)
-
-Object.create() 方法创建一个新对象，使用现有的对象来提供新创建的对象的 \_\_proto\_\_
-
-使用 Object.create(null) 创建的对象上没有任何多余的属性，是纯粹的空对象，许多框架和库中都有应用
 
 
 

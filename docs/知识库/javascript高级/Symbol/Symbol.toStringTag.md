@@ -35,6 +35,16 @@ Object.prototype.toString.call(Promise.resolve()); // "[object Promise]"
 // ... and more
 ```
 
+## 用 toStringTag 自定义类型
+
+给对象自定义类型
+
+```javascript
+var a = {}
+a[Symbol.toStringTag] = 'a'
+console.log('typeof a',Object.prototype.toString.call(a))// [object a]
+```
+
 也可以为自己的类自定义类型标签
 
 ```js
