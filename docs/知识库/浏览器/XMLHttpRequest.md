@@ -1,5 +1,7 @@
 # XMLHttpRequest
 
+> https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest
+>
 > https://juejin.im/post/58e4a174ac502e006c1e18f4
 
 
