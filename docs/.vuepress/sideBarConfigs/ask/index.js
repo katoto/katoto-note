@@ -1,5 +1,13 @@
 const js = require('./js')
-const csshtml = require('./csshtml')
+const csshtml = require('./csshtml');
+const node = require('./node');
+const vue = require('./vue');
+const react = require('./react');
+const webpack = require('./webpack');
+const babel = require('./babel');
+const mobile = require('./mobile');
+const brower = require('./brower');
+const algorithm = require('./algorithm');
 
 //灵魂拷问
 module.exports = {
@@ -12,19 +20,28 @@ module.exports = {
   // 可选的, 默认值是 1
   //sidebarDepth: 1,
   children: [
-    //js
-    js,
-    //css & html
-    csshtml,
     {
-      title: "浏览器",
+      title: 'JS八股文',
+      path: '/灵魂拷问/JS八股文.md'
+    },
+    js,
+    csshtml,
+    node,
+    vue,
+    react,
+    webpack,
+    babel,
+    mobile,
+    brower,
+    algorithm,
+    {
+      title: '开放性问题',
       children: [
         {
-          title: "有用过fetch和XHR么？平时是怎么封装异步请求的，讲一下区别？",
-          path:
-            "/灵魂拷问/浏览器/有用过fetch和XHR么？平时是怎么封装异步请求的，讲一下区别？.md",
+          title: '项目中的难点是什么',
+          path: '/灵魂拷问/项目中的难点是什么.md'
         },
-      ],
+      ]
     },
   ],
 };
