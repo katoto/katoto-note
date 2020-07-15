@@ -1,16 +1,11 @@
 //HTML
 module.exports = {
   title: "HTML",
+  path: "/知识库/HTML/",
   children: [
     {
-      title: "基本类型",
-      path: "/知识库/javascript基础/基本类型/README.md",
-      children: [
-        {
-          title: "Number",
-          path: "/知识库/javascript基础/基本类型/number.md",
-        },
-      ],
+      title: "元素分类",
+      path: "/知识库/HTML/元素分类.md",
     },
   ],
-}
+};
