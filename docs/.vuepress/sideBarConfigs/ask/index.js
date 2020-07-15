@@ -1,3 +1,6 @@
+const js = require('./js')
+const csshtml = require('./csshtml')
+
 //灵魂拷问
 module.exports = {
   // 必要的
@@ -9,6 +12,10 @@ module.exports = {
   // 可选的, 默认值是 1
   //sidebarDepth: 1,
   children: [
+    //js
+    js,
+    //css & html
+    csshtml,
     {
       title: "浏览器",
       children: [
