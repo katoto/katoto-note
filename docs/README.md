@@ -25,21 +25,43 @@
 <h3>来自全网最倒霉前端从业者的面试整理</h3>
 <h3>收录前端面试问题，根据问题作答</h3>
 
+
 <div id="button">
   <a href="./灵魂拷问" class="nav-link action-button">
-    <button>点击进入题目索引</button>
+    <button>灵魂拷问</button>
   </a>
 </div>
 
+<!-- <div id="button">
+  <a href="./灵魂拷问" class="nav-link action-button">
+    <button>灵魂拷问</button>
+  </a>
+</div>
+<div id="button">
+  <a href="./知识库" class="nav-link action-button">
+    <button>知识库</button>
+  </a>
+</div>
+<div id="button">
+  <a href="./手写的源码" class="nav-link action-button">
+    <button>手写的源码</button>
+  </a>
+</div>
+<div id="button">
+  <a href="./随手记" class="nav-link action-button">
+    <button>随手记</button>
+  </a>
+</div> -->
+
 <div style="display:flex;">
-  <h3>希望疫情早点结束，但愿自己找到出路</h3>
+  <h3>希望疫情早点结束</h3>
 </div>
 
 <div style="display:flex;">
   <iframe src="https://ghbtns.com/github-btn.html?user=yuartian&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="Follow @Yu on GitHub"></iframe>
 </div><br>
 
-[🌌 个人Blog传送门](https://github.com/YuArtian/blog)
+[🌌 个人 Blog 传送门](https://github.com/YuArtian/blog)
 
 <div style="display:flex;">
   <iframe src="https://ghbtns.com/github-btn.html?user=yuartian&repo=blog&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>

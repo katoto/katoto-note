@@ -1,6 +1,6 @@
 module.exports = {
   title: "Vue",
-  path: "/知识库/框架/Vue/",
+  // path: "/知识库/框架/Vue/",
   children: [
     //Vue
     {
@@ -45,25 +45,25 @@ module.exports = {
     },
     //Vuex
     {
-      title: 'Vuex',
-      path: '/知识库/框架/Vuex/',
+      title: "Vuex",
+      path: "/知识库/框架/Vuex/",
       children: [
         {
-          title: '实现一个Vuex',
-          path: '/知识库/框架/Vuex/实现一个Vuex.md',
+          title: "实现一个Vuex",
+          path: "/知识库/框架/Vuex/实现一个vuex.md",
         },
-      ]
+      ],
     },
     //Vue Router
     {
-      title: 'Vue Router',
-      path: '/知识库/框架/Router/',
+      title: "Vue Router",
+      path: "/知识库/框架/Router/",
       children: [
         {
-          title: 'Vue Router',
-          path: '/知识库/框架/Router/VueRouter',
+          title: "Vue Router",
+          path: "/知识库/框架/Router/VueRouter/",
         },
-      ]
+      ],
     },
   ],
 };
