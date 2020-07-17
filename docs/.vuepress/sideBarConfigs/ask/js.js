@@ -114,5 +114,9 @@ module.exports = {
       title: '每隔一秒执行问题',
       path: '/灵魂拷问/JS/每隔一秒执行问题/每隔一秒执行问题.md',
     },
+    {
+      title: '实现一个sleep函数',
+      path: '/灵魂拷问/JS/实现一个sleep函数.md',
+    },
   ]
 }
