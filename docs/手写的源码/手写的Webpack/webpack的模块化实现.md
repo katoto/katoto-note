@@ -47,7 +47,7 @@ exports.age = "18";
     console.log(hello.name);
     console.log(hello.age);
   }),
-    "./src/title.js":
+    "./src/hello.js":
     (function(module, exports) {
       exports.name = 'Yu';
       exports.age = '18';
@@ -63,7 +63,7 @@ exports.age = "18";
 
 ```js
 let hello = require("./hello");
-console.log(hello.name);
+console.log(hello.default);
 console.log(hello.age);
 ```
 
@@ -84,7 +84,7 @@ export const age = "18";
     console.log(hello["default"]);
     console.log(hello.age);
   }),
-    "./src/title.js":
+    "./src/hello.js":
     (function(module, exports, __webpack_require__) {
       __webpack_require__.r(exports);
       __webpack_require__.d(exports, "age", function() { return age; });
@@ -101,4 +101,89 @@ export const age = "18";
 对于 `export` 使用 `__webpack_require__.d` 在导出对象 exports 上定义需要导出的属性 以及 对应的 getter 函数
 
 将  `export default "Yu"` 语法转换为 `exports["default"] = 'Yu';`
+
+## ESM 加载 ESM
+
+**index.js**
+
+```js
+import name, { age } from "./hello";
+console.log(name);
+console.log(age);
+```
+
+**hello.js**
+
+```js
+export default "Yu";
+export const age = "18";
+```
+
+**main.js**
+
+```js
+{
+  "./src/index.js":
+  (function(module, exports, __webpack_require__) {
+    __webpack_require__.r(exports);
+    var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./src/hello.js");
+    console.log(_hello__WEBPACK_IMPORTED_MODULE_0__["default"]);
+    console.log(_hello__WEBPACK_IMPORTED_MODULE_0__["age"]);
+  }),
+    "./src/hello.js":
+    (function(module, exports, __webpack_require__) {
+      __webpack_require__.r(exports);
+      __webpack_require__.d(exports, "age", function() { return age; });
+      exports["default"] = 'Yu';
+      var age = 18;
+    })
+}
+```
+
+## ESM 加载 CommonJS
+
+**index.js**
+
+```js
+import name, { age } from "./hello";
+console.log(name);
+console.log(age);
+```
+
+**hello.js**
+
+```js
+module.exports = {
+  name: "Yu",
+  age: 18,
+};
+```
+
+**main.js**
+
+```js
+{
+  "./src/index.js":
+  (function (module, exports, __webpack_require__) {
+    __webpack_require__.r(exports);
+    var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      "./src/hello.js"
+    );
+    var _hello__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(_hello__WEBPACK_IMPORTED_MODULE_0__);
+    console.log(_hello__WEBPACK_IMPORTED_MODULE_0___default.a);
+    console.log(_hello__WEBPACK_IMPORTED_MODULE_0__["age"]);
+  }),
+    "./src/hello.js":
+    (function (module, exports) {
+      module.exports = {
+        name: "Yu",
+        age: 18,
+      };
+    })
+}
+```
+
+
+
+
 
