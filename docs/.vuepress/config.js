@@ -24,7 +24,7 @@ module.exports = {
     resolve: {
       alias: {
         '@img': path.resolve(__dirname, './assets/img'),
-        '@webpack': path.resolve(__dirname, './assets/img/手写的源码/手写的Webpack')
+        '@webpack': path.resolve(__dirname, './assets/img/手写的源码/从零开始的webpack源码')
       }
     }
   }
