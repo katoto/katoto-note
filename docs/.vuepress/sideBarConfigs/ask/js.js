@@ -118,5 +118,9 @@ module.exports = {
       title: '实现一个sleep函数',
       path: '/灵魂拷问/JS/实现一个sleep函数.md',
     },
+    {
+      title: '在范围内生成不重复的随机数字',
+      path: '/灵魂拷问/JS/在范围内生成不重复的随机数字.md',
+    },
   ]
 }
