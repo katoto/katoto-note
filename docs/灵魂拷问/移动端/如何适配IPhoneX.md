@@ -30,7 +30,7 @@
 
 ## 更多
 
-<a href="../../知识库/CSS/IPhoneX适配.md">点击查看知识库</a>
+<a href="../../知识库/CSS/IPhoneX适配">点击查看知识库</a>
 
 ## Tips
 
