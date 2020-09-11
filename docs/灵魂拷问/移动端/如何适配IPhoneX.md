@@ -1,10 +1,8 @@
 # 如何适配IPhoneX
 
-> https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/
->
-> https://webkit.org/blog/7929/designing-websites-for-iphone-x/?hmsr=funteas.com&utm_medium=funteas.com&utm_source=funteas.com
+> 怎么解决 IPhone 的刘海屏，底部的小黑边，以及周围的圆角造成的样式问题
 
-
+> 只要你做过 h5，必能碰到。。。
 
 ## TL;DR
 
@@ -29,6 +27,10 @@
      }
    }
    ```
+
+## 更多
+
+<a href="../../知识库/CSS/IPhoneX适配.md">点击查看知识库</a>
 
 ## Tips
 
