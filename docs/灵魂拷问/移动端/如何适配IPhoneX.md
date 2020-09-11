@@ -8,7 +8,7 @@
 
 ## TL;DR
 
-1. <meta name="viewport" content="width=device-width, viewport-fit=cover">
+1. `<meta name="viewport" content="width=device-width, viewport-fit=cover">`
 
 2. ```css
    body {

@@ -46,7 +46,7 @@ iOS11 新增特性，苹果公司为了适配 iPhoneX 对现有 viewport meta �
 
 新增 viweport-fit 属性，使得页面内容完全覆盖整个窗口
 
-<meta name="viewport" content="width=device-width, viewport-fit=cover">
+`<meta name="viewport" content="width=device-width, viewport-fit=cover">`
 
 <img src="https://misc.aotu.io/liqinuo/iphonex_1.png"/>
 
