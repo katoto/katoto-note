@@ -17,5 +17,9 @@ module.exports = {
       title: '移动端H5如何禁止长按图片保存',
       path: '/灵魂拷问/移动端/H5如何禁止长按图片保存.md',
     },
+    {
+      title: '如何适配IPhoneX',
+      path: '/灵魂拷问/移动端/如何适配IPhoneX.md',
+    },
   ],
 }
