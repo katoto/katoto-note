@@ -1,5 +1,42 @@
 # Babel
 
+> https://www.babeljs.cn/docs/
+
+## Babel 是一个 JavaScript 编译器
+
+Babel 是一个工具链，主要用于将 ECMAScript 2015+ 版本的代码转换为向后兼容的 JavaScript 语法，以便能够运行在当前和旧版本的浏览器或其他环境中
+
+Babel 包含：@babel/core，@babel/cli，@babel/preset-env，@babel/polyfill
+
+### @babel/core
+
+> https://www.babeljs.cn/docs/babel-core
+
+### @babel/cli
+
+> https://www.babeljs.cn/docs/babel-cli
+
+允许你以命令行的方式使用 babel 编译文件
+
+```shell
+npm install --save-dev @babel/core @babel/cli
+babel script.js
+```
+
+还可以指定输出目录
+
+```shell
+npx babel script.js --out-file script-compiled.js
+```
+
+启用 watch 选项
+
+```shell
+npx babel script.js --watch --out-file script-compiled.js
+```
+
+
+
 ## 常用
 ### @babel/plugin-proposal-optional-chaining
 
