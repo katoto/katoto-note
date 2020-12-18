@@ -1,5 +1,13 @@
 # 二叉树
 
+> https://mp.weixin.qq.com/s/izZ5uiWzTagagJec6Y7RvQ
+>
+> https://mp.weixin.qq.com/s/OlpaDhPDTJlQ5MJ8tsARlA
+>
+> https://mp.weixin.qq.com/s/LJbpo49qppIeRs-FbgjsSQ
+>
+> 
+
 ## 遍历
 
 四种主要的遍历思想为：
@@ -19,3 +27,8 @@
 
 #### <a href="../leetcode/中等/116-填充每个节点的下一个右侧节点指针.md">654. 最大二叉树</a>
 
+#### <a href="../leetcode/中等/105. 从前序与中序遍历序列构造二叉树.md">105. 从前序与中序遍历序列构造二叉树</a>
+
+#### <a href="../leetcode/中等/106. 从中序与后序遍历序列构造二叉树.md">106. 从中序与后序遍历序列构造二叉树</a>
+
+#### <a href="../leetcode/中等/652.寻找重复的子树.md">652.寻找重复的子树</a>
