@@ -8,6 +8,7 @@ const babel = require('./babel');
 const mobile = require('./mobile');
 const brower = require('./brower');
 const algorithm = require('./algorithm');
+const project = require('./project')
 
 //灵魂拷问
 module.exports = {
@@ -30,6 +31,7 @@ module.exports = {
     vue,
     react,
     webpack,
+    project,
     babel,
     mobile,
     brower,
