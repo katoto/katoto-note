@@ -18,5 +18,13 @@ module.exports = {
       title: "TypeScript 引入第三方包，报无法找到模块错误",
       path: "/随手记/TypeScript 引入第三方包，报无法找到模块错误.md",
     },
+    {
+      title: "css等宽字体",
+      path: "/随手记/css等宽字体.md",
+    },
+    {
+      title: "node-sass和dart-sass",
+      path: "/随手记/node-sass和dart-sass.md",
+    },
   ],
 };
