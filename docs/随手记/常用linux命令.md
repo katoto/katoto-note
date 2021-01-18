@@ -4,5 +4,11 @@
 sudo kill -9 PID
 ```
 
-> 
+> docker中查看 ip
+
+```shell
+hostname -I
+```
+
+
 
