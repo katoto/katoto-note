@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/YuArtian/LearnForOffer#readme",
   "devDependencies": {
-    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar"
-  }
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {}
 }

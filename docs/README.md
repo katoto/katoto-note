@@ -1,6 +1,6 @@
 # 来自前端面试官的灵魂拷问
 
-### Learn For Offer ~
+ Learn For Offer ~
 
 <style>
 #button {
@@ -22,36 +22,8 @@
   <img src="./.vuepress/assets/img/chenyifaer.jpg"/>
 </div>
 
-<h3>来自全网最倒霉前端从业者的面试整理</h3>
-<h3>收录前端面试问题，根据问题作答</h3>
-
-
-<div id="button">
-  <a href="./灵魂拷问" class="nav-link action-button">
-    <button>灵魂拷问</button>
-  </a>
-</div>
-
-<!-- <div id="button">
-  <a href="./灵魂拷问" class="nav-link action-button">
-    <button>灵魂拷问</button>
-  </a>
-</div>
-<div id="button">
-  <a href="./知识库" class="nav-link action-button">
-    <button>知识库</button>
-  </a>
-</div>
-<div id="button">
-  <a href="./手写的源码" class="nav-link action-button">
-    <button>手写的源码</button>
-  </a>
-</div>
-<div id="button">
-  <a href="./随手记" class="nav-link action-button">
-    <button>随手记</button>
-  </a>
-</div> -->
+<!-- <h3>来自全网最倒霉前端从业者的面试整理</h3> -->
+<h3>收录前端面试问题以及答案</h3>
 
 <div style="display:flex;">
   <h3>希望疫情早点结束</h3>
