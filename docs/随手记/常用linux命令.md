@@ -18,6 +18,14 @@ cat /proc/version
 
 
 
+打开iOS模拟器
+
+```shell
+open -a Simulator
+```
+
+
+
 Redis 启动/停止/重启
 
 ```shell
