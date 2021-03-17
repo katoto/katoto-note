@@ -25,7 +25,7 @@ NPM（node package manager）node 包管理器
 
      最后生成 package-lock.json
 
-![npm安装流程](../../../.vuepress/assets/img/npm_01.png)
+![npm安装流程](@img/npm_01.png)
 
 
 
