@@ -1,5 +1,21 @@
 # 微前端
 
+> http://blog.itpub.net/31559758/viewspace-2695430/
+>
+> https://tech.meituan.com/2019/12/26/meituan-bifrost.html
+>
+> qiankun
+>
+> https://juejin.cn/post/6856569463950639117#heading-0
+>
+> https://juejin.cn/post/6844904185910018062#heading-0
+>
+> https://www.yuque.com/kuitos/gky7yw/uyp6wi#ZytnB
+>
+> https://www.infoq.cn/article/yuWiaiui6C18Od5uZiuF
+>
+> 
+
 ## 隔离方案
 
 ### CSS隔离
