@@ -1,5 +1,9 @@
 # DevOps
 
+> https://zhuanlan.zhihu.com/p/83860143
+>
+> 
+
 ## DevOps 是什么
 
 DevOps = development（开发） + operations（运维）
@@ -11,3 +15,4 @@ DevOps = development（开发） + operations（运维）
 目的是为了加强开发、测试和运维之间的沟通合作，使软件开发的整个流程更加快捷、频繁、可靠
 
 ![devops闭环](@img/devops_01.png)
+
