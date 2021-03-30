@@ -69,3 +69,7 @@
 - 支持服务直连
 - 全链路跟踪
 - dubbo 接口自动生成
+
+### 和 Eggjs 结合
+
+> https://www.jianshu.com/p/9a4745bb9564
