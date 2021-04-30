@@ -1,24 +1,38 @@
->  pid杀进程
+#### pid杀进程
 
 ```shell
 sudo kill -9 PID
 ```
 
-> docker中查看 ip
+#### docker中查看 ip
 
 ```shell
 hostname -I
 ```
 
-> 查看Linux版本信息
+#### 查看Linux版本信息
 
 ```shell
 cat /proc/version
 ```
 
+#### 查看端口占用情况
+
+```shell
+lsof -i:端口号
+```
+
+#### 查看磁盘空间
+
+> https://www.runoob.com/w3cnote/linux-view-disk-space.html
+
+```shell
+df -hl
+```
 
 
-打开iOS模拟器
+
+#### 打开iOS模拟器
 
 ```shell
 open -a Simulator
@@ -26,7 +40,7 @@ open -a Simulator
 
 
 
-Redis 启动/停止/重启
+#### Redis 启动/停止/重启
 
 ```shell
 如果是用apt-get或者yum install安装的redis，可以直接通过下面的命令停止/启动/重启redis
