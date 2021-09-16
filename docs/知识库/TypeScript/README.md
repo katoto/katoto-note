@@ -1,5 +1,7 @@
 # TypeScript
 
+> https://www.typescriptlang.org/
+>
 > https://ts.xcatliu.com/introduction/index.html
 >
 > https://jkchao.github.io/typescript-book-chinese/
