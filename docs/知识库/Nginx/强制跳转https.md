@@ -165,49 +165,49 @@ server {
 ```bash
 497 - normal request was sent to HTTPS 
 解释：当网站只允许https访问时，当用http访问时nginx会报出497错误码
-  
+
 思路：
 利用error_page命令将497状态码的链接重定向到https://dev.wangsl.com这个域名上
- 
+
 配置实例：
 如下访问dev.wangsl.com或者wangsl.com的http都会被强制跳转到https
 server {
-    listen 80;
-    server_name dev.wangsl.com wangsl.com *.wangsl.com;
-    index index.html index.php index.htm;
-   
-    access_log  /usr/local/nginx/logs/8080-access.log main;
-    error_log  /usr/local/nginx/logs/8080-error.log;
-     
-    error_page 497  https://$host$uri?$args; 
-  
-    location ~ / {
-    root /var/www/html/8080;
-    index index.html index.php index.htm;
-    }
-    }
- 
- 
+listen 80;
+server_name dev.wangsl.com wangsl.com *.wangsl.com;
+index index.html index.php index.htm;
+
+access_log  /usr/local/nginx/logs/8080-access.log main;
+error_log  /usr/local/nginx/logs/8080-error.log;
+
+error_page 497  https://$host$uri?$args; 
+
+location ~ / {
+root /var/www/html/8080;
+index index.html index.php index.htm;
+}
+}
+
+
 也可以将80和443的配置放在一起：
 server { 
-    listen       127.0.0.1:443;  #ssl端口 
-    listen       127.0.0.1:80;   #用户习惯用http访问，加上80，后面通过497状态码让它自动跳到443端口 
-    server_name  dev.wangsl.com; 
-    #为一个server{......}开启ssl支持 
-    ssl                  on; 
-    #指定PEM格式的证书文件  
-    ssl_certificate      /etc/nginx/wangsl.pem;  
-    #指定PEM格式的私钥文件 
-    ssl_certificate_key  /etc/nginx/wangsl.key; 
-       
-    #让http请求重定向到https请求  
-    error_page 497  https://$host$uri?$args; 
- 
-    location ~ / {
-    root /var/www/html/8080;
-    index index.html index.php index.htm;
-    }
-    }
+listen       127.0.0.1:443;  #ssl端口 
+listen       127.0.0.1:80;   #用户习惯用http访问，加上80，后面通过497状态码让它自动跳到443端口 
+server_name  dev.wangsl.com; 
+#为一个server{......}开启ssl支持 
+ssl                  on; 
+#指定PEM格式的证书文件  
+ssl_certificate      /etc/nginx/wangsl.pem;  
+#指定PEM格式的私钥文件 
+ssl_certificate_key  /etc/nginx/wangsl.key; 
+
+#让http请求重定向到https请求  
+error_page 497  https://$host$uri?$args; 
+
+location ~ / {
+root /var/www/html/8080;
+index index.html index.php index.htm;
+}
+}
 ```
 
 **三、利用meta的刷新作用将http跳转到https**
