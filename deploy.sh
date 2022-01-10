@@ -15,10 +15,13 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
+git remote add origin git@github.com:YuArtian/yuartian.github.io.git
+
+git pull --rebase origin master
+git push
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f git@github.com:yuartian/yuartian.github.io.git master
-
+# git push -f git@github.com:yuartian/yuartian.github.io.git master
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:yuartian/<REPO>.git master:gh-pages
 
