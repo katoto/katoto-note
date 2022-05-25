@@ -21,8 +21,7 @@
     "url": "https://github.com/YuArtian/LearnForOffer/issues"
   },
   "homepage": "https://github.com/YuArtian/LearnForOffer#readme",
-  "devDependencies": {
-    "vuepress": "^1.8.2"
-  },
-  "dependencies": {}
+  "dependencies": {
+    "vuepress": "1.9.7"
+  }
 }
